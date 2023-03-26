@@ -478,11 +478,11 @@ function OrionLib:MakeWindow(WindowConfig)
 	if WindowConfig.IntroEnabled == nil then
 		WindowConfig.IntroEnabled = true
 	end
-	WindowConfig.IntroText = WindowConfig.IntroText or "Evelysium"
+	WindowConfig.IntroText = WindowConfig.IntroText or "Evelysium.lol"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
-	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://12910874656"
-	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://12910874656"
+	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://12910704879"
+	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://12910704879"
 	OrionLib.Folder = WindowConfig.ConfigFolder
 	OrionLib.SaveCfg = WindowConfig.SaveConfig
 
